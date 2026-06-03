@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías - LSM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header id="encabezado">
+        <div id="logo-area">
+            <span id="logo-icono">🤟</span>
+            <h1 id="logo-titulo">LSM Plataforma</h1>
+            <p id="logo-subtitulo">Lengua de Señas Mexicana</p>
+        </div>
+        <nav id="navbar">
+            <ul id="menu-lista">
+                <li><a href="../index.html"           class="nav-link">Inicio</a></li>
+                <li><a href="diccionario.html"        class="nav-link">Diccionario</a></li>
+                <li><a href="categorias.html"         class="nav-link activo">Categorías</a></li>
+                <li><a href="lecciones.html"          class="nav-link">Lecciones</a></li>
+                <li><a href="quiz.html"               class="nav-link">Quiz</a></li>
+                <li><a href="recursos.html"           class="nav-link">Recursos</a></li>
+                <li><a href="comunidad.html"          class="nav-link">Comunidad</a></li>
+                <li><a href="acerca.html"             class="nav-link">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="page-header">
+        <h2 id="cat-titulo">Cargando...</h2>
+        <p  id="cat-descripcion">Cargando...</p>
+    </section>
+
+    <!-- categorias segun xml -->
+    <section id="categorias-seccion">
+        <div id="categorias-contenedor">
+            <!-- Se genera desde categorias.xml -->
+        </div>
+    </section>
+
+    <!-- Señas de la categoria elegida-->
+    <section id="senas-categoria-seccion" style="display:none;">
+        <h3 id="nombre-categoria-activa"></h3>
+        <div id="senas-categoria-contenedor"></div>
+        <button id="btn-volver-categorias">← Volver a categorías</button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

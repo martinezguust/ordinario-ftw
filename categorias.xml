@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categorias>
+
+    <!-- Encabezado de la página -->
+    <encabezado>
+        <titulo>Categorías de LSM</titulo>
+        <descripcion>Explora las señas organizadas por temas. Haz clic en una categoría para ver todas las señas que contiene.</descripcion>
+    </encabezado>
+
+    <!-- ==================== SALUDOS ==================== -->
+    <categoria>
+        <nombre>Saludos</nombre>
+        <icono>👋</icono>
+        <total>8</total>
+        <sena>
+            <palabra>Hola</palabra>
+            <descripcion>Levanta la mano derecha con los dedos juntos a la altura de la sien y muévela hacia afuera ligeramente.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Adiós</palabra>
+            <descripcion>Extiende la mano con los dedos abiertos y muévela de lado a lado, como un movimiento de despedida.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Gracias</palabra>
+            <descripcion>Lleva las yemas de los dedos hacia los labios y mueve la mano hacia adelante abriendo los dedos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Por favor</palabra>
+            <descripcion>Coloca la mano derecha abierta sobre el pecho y realiza un movimiento circular.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Buenos días</palabra>
+            <descripcion>Mueve el brazo doblado de abajo hacia arriba, representando el sol que sale.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Buenas noches</palabra>
+            <descripcion>Mueve el brazo doblado de arriba hacia abajo, representando el sol que se oculta.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Perdón</palabra>
+            <descripcion>Frota la palma de la mano derecha sobre la palma izquierda en movimiento circular.</descripcion>
+        </sena>
+        <sena>
+            <palabra>De nada</palabra>
+            <descripcion>Extiende ambas manos hacia adelante con las palmas hacia arriba y muévelas de lado a lado.</descripcion>
+        </sena>
+    </categoria>
+
+    <!-- ==================== FAMILIA ==================== -->
+    <categoria>
+        <nombre>Familia</nombre>
+        <icono>👨‍👩‍👧‍👦</icono>
+        <total>9</total>
+        <sena>
+            <palabra>Mamá</palabra>
+            <descripcion>Mano abierta en el lado derecho del mentón con el pulgar tocando la mejilla, mueve los dedos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Papá</palabra>
+            <descripcion>Mano abierta en el lado derecho de la frente con el pulgar tocando la sien, mueve los dedos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Hermano</palabra>
+            <descripcion>Señala la sien y luego une ambos índices horizontalmente frente al pecho.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Hermana</palabra>
+            <descripcion>Señala el mentón y luego une ambos índices horizontalmente frente al pecho.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Abuelo</palabra>
+            <descripcion>Realiza la seña de papá y aleja la mano hacia adelante dos veces.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Abuela</palabra>
+            <descripcion>Realiza la seña de mamá y aleja la mano hacia adelante dos veces.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Hijo</palabra>
+            <descripcion>Señala la sien y mueve la mano hacia abajo y adelante, indicando descendencia.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Hija</palabra>
+            <descripcion>Señala el mentón y mueve la mano hacia abajo y adelante, indicando descendencia.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Familia</palabra>
+            <descripcion>Forma una F con ambas manos y realiza un círculo hacia afuera hasta que los meñiques se toquen.</descripcion>
+        </sena>
+    </categoria>
+
+    <!-- ==================== NÚMEROS ==================== -->
+    <categoria>
+        <nombre>Números</nombre>
+        <icono>🔢</icono>
+        <total>10</total>
+        <sena>
+            <palabra>Uno</palabra>
+            <descripcion>Extiende únicamente el dedo índice hacia arriba.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Dos</palabra>
+            <descripcion>Extiende el índice y el dedo medio hacia arriba separados (forma de V).</descripcion>
+        </sena>
+        <sena>
+            <palabra>Tres</palabra>
+            <descripcion>Extiende el índice, el dedo medio y el anular hacia arriba.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Cuatro</palabra>
+            <descripcion>Extiende los cuatro dedos (todos excepto el pulgar) hacia arriba.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Cinco</palabra>
+            <descripcion>Extiende los cinco dedos de la mano derecha hacia arriba con la palma al frente.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Seis</palabra>
+            <descripcion>Toca el dedo meñique con el pulgar, extendiendo los otros tres dedos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Siete</palabra>
+            <descripcion>Toca el dedo anular con el pulgar, extendiendo los otros tres dedos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Ocho</palabra>
+            <descripcion>Toca el dedo medio con el pulgar, extendiendo el índice y los otros dedos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Nueve</palabra>
+            <descripcion>Toca el índice con el pulgar formando un círculo, extendiendo los demás dedos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Diez</palabra>
+            <descripcion>Levanta el pulgar y muévelo ligeramente de lado a lado, o muestra ambas manos abiertas.</descripcion>
+        </sena>
+    </categoria>
+
+    <!-- ==================== COLORES ==================== -->
+    <categoria>
+        <nombre>Colores</nombre>
+        <icono>🎨</icono>
+        <total>6</total>
+        <sena>
+            <palabra>Rojo</palabra>
+            <descripcion>Pasa el dedo índice doblado por los labios de arriba hacia abajo una o dos veces.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Azul</palabra>
+            <descripcion>Forma la letra B con la mano derecha y muévela ligeramente de lado a lado.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Verde</palabra>
+            <descripcion>Forma la letra V con la mano derecha y muévela ligeramente de lado a lado.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Amarillo</palabra>
+            <descripcion>Forma la letra Y con la mano derecha y muévela de lado a lado.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Blanco</palabra>
+            <descripcion>Coloca la mano abierta sobre el pecho y junta los dedos al alejarla.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Negro</palabra>
+            <descripcion>Pasa el dedo índice extendido por la frente de un lado al otro.</descripcion>
+        </sena>
+    </categoria>
+
+    <!-- ==================== EMOCIONES ==================== -->
+    <categoria>
+        <nombre>Emociones</nombre>
+        <icono>😊</icono>
+        <total>5</total>
+        <sena>
+            <palabra>Feliz</palabra>
+            <descripcion>Manos abiertas sobre el pecho con movimientos circulares hacia arriba varias veces.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Triste</palabra>
+            <descripcion>Ambas manos abiertas frente al rostro deslizándose hacia abajo lentamente.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Enojado</palabra>
+            <descripcion>Ambas manos curvas frente al rostro con las palmas hacia adentro, juntando los dedos con tensión.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Miedo</palabra>
+            <descripcion>Ambas manos abiertas a los lados del pecho haciéndolas temblar.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Amor</palabra>
+            <descripcion>Cruza los brazos sobre el pecho como si te abrazaras a ti mismo.</descripcion>
+        </sena>
+    </categoria>
+
+    <!-- ==================== VERBOS ==================== -->
+    <categoria>
+        <nombre>Verbos</nombre>
+        <icono>🏃</icono>
+        <total>8</total>
+        <sena>
+            <palabra>Comer</palabra>
+            <descripcion>Junta los dedos formando un pico y lleva la mano varias veces hacia la boca.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Beber</palabra>
+            <descripcion>Forma un vaso con la mano y llévala a los labios inclinándola como si bebieras.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Dormir</palabra>
+            <descripcion>Inclina la cabeza y coloca la mejilla sobre la mano abierta cerrando los ojos.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Hablar</palabra>
+            <descripcion>Índice y dedo medio extendidos frente a los labios moviéndose alternadamente hacia adelante.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Escuchar</palabra>
+            <descripcion>Coloca la mano en forma de copa detrás de la oreja.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Ver</palabra>
+            <descripcion>Coloca el índice y dedo medio en V frente a los ojos y apunta hacia lo que deseas ver.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Ir</palabra>
+            <descripcion>Extiende el índice derecho y muévelo hacia adelante describiendo un arco.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Venir</palabra>
+            <descripcion>Extiende el índice apuntando hacia afuera y dóblalo hacia el cuerpo varias veces.</descripcion>
+        </sena>
+    </categoria>
+
+    <!-- ==================== LUGARES ==================== -->
+    <categoria>
+        <nombre>Lugares</nombre>
+        <icono>🏙️</icono>
+        <total>6</total>
+        <sena>
+            <palabra>Casa</palabra>
+            <descripcion>Forma el techo de una casa juntando las yemas de los dedos de ambas manos en punta y luego baja las manos hacia los lados como las paredes.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Escuela</palabra>
+            <descripcion>Palmea el dorso de la mano izquierda con la palma derecha dos veces, como el gesto de aplaudir suavemente.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Hospital</palabra>
+            <descripcion>Dibuja una cruz en el brazo izquierdo con el dedo índice derecho, haciendo referencia a la cruz roja.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Mercado</palabra>
+            <descripcion>Frota el pulgar contra el índice y dedo medio de la mano derecha como si contaras dinero, moviéndola a los lados.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Parque</palabra>
+            <descripcion>Extiende ambas manos con los dedos hacia arriba y muévelas en ondas, representando árboles y naturaleza.</descripcion>
+        </sena>
+        <sena>
+            <palabra>Iglesia</palabra>
+            <descripcion>Forma la letra C con la mano derecha y colócala encima del puño izquierdo cerrado, representando una cruz sobre un edificio.</descripcion>
+        </sena>
+    </categoria>
+
+</categorias>

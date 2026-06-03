@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diccionario>
+
+    <!-- Encabezado de la página -->
+    <encabezado>
+        <titulo>Diccionario de LSM</titulo>
+        <descripcion>Encuentra señas organizadas alfabéticamente. Usa el buscador para encontrar rápidamente la seña que necesitas.</descripcion>
+    </encabezado>
+
+    <!-- ==================== SALUDOS ==================== -->
+    <sena>
+        <palabra>Hola</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Levanta la mano derecha con los dedos juntos a la altura de la sien y muévela hacia afuera ligeramente, como un saludo militar relajado.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Adiós</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Extiende la mano con los dedos abiertos y muévela de lado a lado, como un movimiento de despedida.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Gracias</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Extiende la mano derecha con los dedos juntos, lleva las yemas hacia los labios y mueve la mano hacia adelante abriendo suavemente los dedos.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Por favor</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Coloca la mano derecha abierta sobre el pecho y realiza un movimiento circular en el sentido de las manecillas del reloj.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Buenos días</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Coloca el brazo derecho doblado horizontalmente frente al cuerpo y muévelo hacia arriba, representando el sol que sale.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Buenas noches</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Dobla el brazo derecho y muévelo hacia abajo, representando el sol que se oculta. Luego cierra los ojos brevemente.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Perdón</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Frota la palma de la mano derecha sobre la palma izquierda en movimiento circular, expresando disculpa.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>De nada</palabra>
+        <categoria>Saludos</categoria>
+        <descripcion>Extiende ambas manos hacia adelante con las palmas hacia arriba y muévelas suavemente de lado a lado.</descripcion>
+    </sena>
+
+    <!-- ==================== FAMILIA ==================== -->
+    <sena>
+        <palabra>Mamá</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Coloca la mano derecha abierta en el lado derecho del mentón con el pulgar tocando la mejilla y mueve los dedos.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Papá</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Coloca la mano derecha abierta en el lado derecho de la frente con el pulgar tocando la sien y mueve los dedos.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Hermano</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Señala la sien con el índice derecho (masculino) y luego une ambos índices horizontalmente frente al pecho.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Hermana</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Señala el mentón con el índice derecho (femenino) y luego une ambos índices horizontalmente frente al pecho.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Abuelo</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Realiza la seña de papá y luego aleja la mano hacia adelante dos veces, indicando una generación atrás.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Abuela</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Realiza la seña de mamá y luego aleja la mano hacia adelante dos veces, indicando una generación atrás.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Hijo</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Señala la sien con el índice (masculino) y luego mueve la mano hacia abajo y adelante, indicando descendencia.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Hija</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Señala el mentón con el índice (femenino) y luego mueve la mano hacia abajo y adelante, indicando descendencia.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Familia</palabra>
+        <categoria>Familia</categoria>
+        <descripcion>Forma una F con ambas manos y realiza un círculo hacia afuera hasta que los dedos meñiques se toquen.</descripcion>
+    </sena>
+
+    <!-- ==================== NÚMEROS ==================== -->
+    <sena>
+        <palabra>Uno</palabra>
+        <categoria>Números</categoria>
+        <descripcion>Extiende únicamente el dedo índice de la mano derecha hacia arriba con los demás dedos cerrados.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Dos</palabra>
+        <categoria>Números</categoria>
+        <descripcion>Extiende el índice y el dedo medio de la mano derecha hacia arriba, separados (forma de V o paz).</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Tres</palabra>
+        <categoria>Números</categoria>
+        <descripcion>Extiende el índice, el dedo medio y el anular de la mano derecha hacia arriba.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Cuatro</palabra>
+        <categoria>Números</categoria>
+        <descripcion>Extiende los cuatro dedos (todos excepto el pulgar) de la mano derecha hacia arriba.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Cinco</palabra>
+        <categoria>Números</categoria>
+        <descripcion>Extiende los cinco dedos de la mano derecha hacia arriba con la palma al frente.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Diez</palabra>
+        <categoria>Números</categoria>
+        <descripcion>Levanta el pulgar de la mano derecha y muévelo ligeramente de lado a lado, o muestra ambas manos abiertas.</descripcion>
+    </sena>
+
+    <!-- ==================== COLORES ==================== -->
+    <sena>
+        <palabra>Rojo</palabra>
+        <categoria>Colores</categoria>
+        <descripcion>Pasa el dedo índice doblado por los labios de arriba hacia abajo una o dos veces, haciendo referencia al color de los labios.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Azul</palabra>
+        <categoria>Colores</categoria>
+        <descripcion>Forma la letra B con la mano derecha y muévela ligeramente de lado a lado frente al cuerpo.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Verde</palabra>
+        <categoria>Colores</categoria>
+        <descripcion>Forma la letra V con la mano derecha y muévela ligeramente de lado a lado frente al cuerpo.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Amarillo</palabra>
+        <categoria>Colores</categoria>
+        <descripcion>Forma la letra Y con la mano derecha y muévela de lado a lado frente al cuerpo.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Blanco</palabra>
+        <categoria>Colores</categoria>
+        <descripcion>Coloca la mano abierta sobre el pecho y junta los dedos al alejarla, como si tomaras algo del pecho.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Negro</palabra>
+        <categoria>Colores</categoria>
+        <descripcion>Pasa el dedo índice extendido por la frente de un lado al otro.</descripcion>
+    </sena>
+
+    <!-- ==================== EMOCIONES ==================== -->
+    <sena>
+        <palabra>Feliz</palabra>
+        <categoria>Emociones</categoria>
+        <descripcion>Coloca una o ambas manos abiertas sobre el pecho y realiza movimientos circulares hacia arriba varias veces.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Triste</palabra>
+        <categoria>Emociones</categoria>
+        <descripcion>Coloca ambas manos abiertas frente al rostro con los dedos apuntando hacia arriba y deslízalas hacia abajo lentamente.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Enojado</palabra>
+        <categoria>Emociones</categoria>
+        <descripcion>Coloca ambas manos curvas frente al rostro con las palmas hacia adentro y junta los dedos con tensión.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Miedo</palabra>
+        <categoria>Emociones</categoria>
+        <descripcion>Coloca ambas manos abiertas a los lados del pecho con los dedos apuntando hacia el centro y hazlas temblar.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Amor</palabra>
+        <categoria>Emociones</categoria>
+        <descripcion>Cruza los brazos sobre el pecho como si te abrazaras a ti mismo, con las manos en puño o abiertas sobre los hombros.</descripcion>
+    </sena>
+
+    <!-- ==================== VERBOS BÁSICOS ==================== -->
+    <sena>
+        <palabra>Comer</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Junta los dedos de la mano derecha formando un pico y lleva la mano varias veces hacia la boca, como si llevaras comida.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Beber</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Forma un vaso con la mano (dedos curvados, pulgar hacia arriba) y lleva la mano a los labios inclinándola como si bebieras.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Dormir</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Inclina la cabeza ligeramente hacia un lado y coloca la mejilla sobre la mano abierta, cerrando los ojos brevemente.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Hablar</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Coloca el índice y el dedo medio extendidos frente a los labios y muévelos alternadamente hacia adelante.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Escuchar</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Coloca la mano en forma de copa detrás de la oreja, como si intentaras escuchar mejor un sonido lejano.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Ver</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Coloca el índice y dedo medio en V frente a los ojos y luego apunta hacia lo que deseas ver.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Ir</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Extiende el índice derecho y muévelo hacia adelante describiendo un arco, indicando desplazamiento.</descripcion>
+    </sena>
+
+    <sena>
+        <palabra>Venir</palabra>
+        <categoria>Verbos</categoria>
+        <descripcion>Extiende el índice derecho apuntando hacia afuera y dóblalo hacia el cuerpo varias veces, como llamando a alguien.</descripcion>
+    </sena>
+
+</diccionario>
