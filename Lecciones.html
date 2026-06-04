@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecciones - LSM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header id="encabezado">
+        <div id="logo-area">
+            <span id="logo-icono">🤟</span>
+            <h1 id="logo-titulo">LSM Plataforma</h1>
+            <p id="logo-subtitulo">Lengua de Señas Mexicana</p>
+        </div>
+        <nav id="navbar">
+            <ul id="menu-lista">
+                <li><a href="index.html"        class="nav-link">Inicio</a></li>
+                <li><a href="diccionario.html"  class="nav-link">Diccionario</a></li>
+                <li><a href="categorias.html"   class="nav-link">Categorías</a></li>
+                <li><a href="lecciones.html"    class="nav-link activo">Lecciones</a></li>
+                <li><a href="quiz.html"         class="nav-link">Quiz</a></li>
+                <li><a href="recursos.html"     class="nav-link">Recursos</a></li>
+                <li><a href="comunidad.html"    class="nav-link">Comunidad</a></li>
+                <li><a href="acerca.html"       class="nav-link">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Encabezado de página -->
+    <section id="page-header">
+        <h2 id="lec-titulo">Cargando...</h2>
+        <p  id="lec-descripcion">Cargando...</p>
+    </section>
+
+    
+    <section id="filtro-seccion">
+        <button class="filtro-btn activo" id="filtro-todos">Todos</button>
+        <button class="filtro-btn" id="filtro-basico">Básico</button>
+        <button class="filtro-btn" id="filtro-intermedio">Intermedio</button>
+        <button class="filtro-btn" id="filtro-avanzado">Avanzado</button>
+    </section>
+
+    
+    <section id="lecciones-seccion">
+        <div id="lecciones-contenedor">
+        </div>
+    </section>
+
+    
+    <section id="leccion-detalle-seccion" style="display:none;">
+        <button id="btn-volver-lecciones">← Volver a lecciones</button>
+        <h3 id="leccion-detalle-titulo"></h3>
+        <p  id="leccion-detalle-nivel"></p>
+        <div id="leccion-detalle-contenido"></div>
+    </section>
+
+    
+    <footer id="pie-pagina">
+        <div id="footer-contenido">
+            <p id="footer-texto">© 2025 Plataforma LSM</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

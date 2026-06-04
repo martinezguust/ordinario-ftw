@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recursos>
+
+    <encabezado>
+        <titulo>Recursos de LSM</titulo>
+        <descripcion>Materiales, videos, libros y aplicaciones para complementar tu aprendizaje de la Lengua de Señas Mexicana.</descripcion>
+    </encabezado>
+
+    <!-- VIDEOS -->
+    <recurso>
+        <tipo>video</tipo>
+        <titulo>Curso básico de LSM — SEP</titulo>
+        <descripcion>Serie de videos oficiales de la Secretaría de Educación Pública con el abecedario, números y vocabulario básico de LSM.</descripcion>
+        <enlace>https://www.youtube.com</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>video</tipo>
+        <titulo>LSM para principiantes — Canal SORD@S MX</titulo>
+        <descripcion>Playlist con más de 40 videos cortos que enseñan saludos, familia, colores y verbos cotidianos de manera visual y dinámica.</descripcion>
+        <enlace>https://www.youtube.com</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>video</tipo>
+        <titulo>Vocabulario de emergencias en LSM</titulo>
+        <descripcion>Videos breves con señas clave para situaciones de emergencia: ayuda, peligro, hospital, policía, fuego.</descripcion>
+        <enlace>https://www.youtube.com</enlace>
+    </recurso>
+
+    <!-- LIBROS -->
+    <recurso>
+        <tipo>libro</tipo>
+        <titulo>Diccionario de Lengua de Señas Mexicana</titulo>
+        <descripcion>Publicación del DIF Nacional con más de 3,000 señas ilustradas organizadas por categoría temática. Disponible en PDF gratuito.</descripcion>
+        <enlace>https://www.gob.mx/dif</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>libro</tipo>
+        <titulo>Gramática de la LSM — UNAM</titulo>
+        <descripcion>Texto académico que analiza la estructura gramatical de la LSM, elaborado por investigadores de la Universidad Nacional Autónoma de México.</descripcion>
+        <enlace>https://www.unam.mx</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>libro</tipo>
+        <titulo>Aprendiendo LSM paso a paso</titulo>
+        <descripcion>Guía práctica con ejercicios progresivos, ideal para autoaprendizaje. Incluye imágenes de las posiciones de la mano para cada seña.</descripcion>
+        <enlace>https://www.amazon.com.mx</enlace>
+    </recurso>
+
+    <!-- SITIOS WEB -->
+    <recurso>
+        <tipo>sitio</tipo>
+        <titulo>FENASORD — Federación Nacional de Sordos</titulo>
+        <descripcion>Sitio oficial de la federación que representa a la comunidad sorda en México. Ofrece recursos, noticias y directorio de asociaciones estatales.</descripcion>
+        <enlace>https://fenasord.org</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>sitio</tipo>
+        <titulo>IMATE — Instituto Mexicano de Audición</titulo>
+        <descripcion>Institución especializada en atención a personas con discapacidad auditiva. Ofrece materiales educativos y servicios de interpretación.</descripcion>
+        <enlace>https://imate.org.mx</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>sitio</tipo>
+        <titulo>Inclúyeme — Inclusión y discapacidad</titulo>
+        <descripcion>Plataforma de inclusión laboral y educativa con recursos sobre discapacidad auditiva y comunidad sorda en México.</descripcion>
+        <enlace>https://incluyeme.com</enlace>
+    </recurso>
+
+    <!-- APLICACIONES -->
+    <recurso>
+        <tipo>app</tipo>
+        <titulo>HandSpeak LSM</titulo>
+        <descripcion>Aplicación móvil con diccionario visual de señas, lecciones interactivas y modo práctica con cámara. Disponible para Android e iOS.</descripcion>
+        <enlace>https://play.google.com</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>app</tipo>
+        <titulo>SignSchool</titulo>
+        <descripcion>App de aprendizaje de lengua de señas con lecciones gamificadas, flashcards y seguimiento de progreso. Incluye contenido en LSM.</descripcion>
+        <enlace>https://www.signschool.com</enlace>
+    </recurso>
+
+    <recurso>
+        <tipo>app</tipo>
+        <titulo>Spread the Sign</titulo>
+        <descripcion>Diccionario internacional de lenguas de señas con videos. Contiene miles de señas en LSM filmadas por hablantes nativos.</descripcion>
+        <enlace>https://www.spreadthesign.com</enlace>
+    </recurso>
+
+</recursos>

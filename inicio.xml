@@ -1,67 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inicio>
 
-    <!-- Sección Hero -->
-    <hero>
-        <titulo>Aprende Lengua de Señas Mexicana</titulo>
-        <descripcion>Una plataforma interactiva para aprender LSM desde cero. Accede al diccionario, lecciones, categorías y practica con nuestros quizzes.</descripcion>
-        <boton-texto>Comenzar a aprender</boton-texto>
-    </hero>
+    <!-- Qué es la LSM -->
+    <que-es>
+        <titulo>¿Qué es la Lengua de Señas Mexicana?</titulo>
+        <subtitulo>Conoce la lengua natural de la comunidad sorda de México</subtitulo>
+        <parrafo1>La Lengua de Señas Mexicana (LSM) es la lengua natural de la comunidad sorda de México. Se trata de un sistema de comunicación visual-gestual con gramática y vocabulario propios, completamente independiente del español.</parrafo1>
+        <parrafo2>En México existen aproximadamente 2.3 millones de personas con discapacidad auditiva según el INEGI. Para muchas de ellas, la LSM es su primera lengua y el principal medio de comunicación con el mundo.</parrafo2>
+        <parrafo3>La LSM fue reconocida oficialmente en 2005 con la Ley General de las Personas con Discapacidad, que la reconoce como una lengua nacional y garantiza su uso en educación, servicios públicos y medios de comunicación.</parrafo3>
+        <dato1>
+            <numero>2.3 millones</numero>
+            <etiqueta>de personas con discapacidad auditiva en México</etiqueta>
+        </dato1>
+        <dato2>
+            <numero>Desde 2005</numero>
+            <etiqueta>reconocida oficialmente como lengua nacional</etiqueta>
+        </dato2>
+        <dato3>
+            <numero>1a lengua</numero>
+            <etiqueta>para gran parte de la comunidad sorda mexicana</etiqueta>
+        </dato3>
+    </que-es>
 
-    <!-- Estadísticas de la plataforma -->
-    <estadisticas>
-        <stat>
-            <numero>500+</numero>
-            <etiqueta>Señas en el diccionario</etiqueta>
-        </stat>
-        <stat>
-            <numero>12</numero>
-            <etiqueta>Categorías temáticas</etiqueta>
-        </stat>
-        <stat>
-            <numero>30</numero>
-            <etiqueta>Lecciones disponibles</etiqueta>
-        </stat>
-        <stat>
-            <numero>100%</numero>
-            <etiqueta>Gratuito</etiqueta>
-        </stat>
-    </estadisticas>
+    <!-- Abecedario -->
+    <abecedario>
+        <titulo>El Abecedario Dactilológico</titulo>
+        <descripcion>El alfabeto dactilológico es la representación manual de cada letra del español. Es la base para deletrear nombres propios, palabras técnicas o cualquier término que no tenga una seña específica en LSM.</descripcion>
+        <imagen-alt>Abecedario de la Lengua de Señas Mexicana con las 27 letras representadas con la mano</imagen-alt>
+        <consejo>💡 Consejo: Practica frente a un espejo comenzando con las vocales A, E, I, O, U. Una vez que las domines, avanza con las consonantes más comunes.</consejo>
+    </abecedario>
 
-    <!-- Tarjetas de características -->
-    <caracteristicas>
-        <tarjeta>
-            <icono>📖</icono>
-            <titulo>Diccionario LSM</titulo>
-            <descripcion>Busca señas por palabra o categoría con ilustraciones y descripciones detalladas.</descripcion>
-            <enlace>pages/diccionario.html</enlace>
-        </tarjeta>
-        <tarjeta>
-            <icono>🗂️</icono>
-            <titulo>Categorías</titulo>
-            <descripcion>Explora señas organizadas por temas: saludos, familia, números, colores y más.</descripcion>
-            <enlace>pages/categorias.html</enlace>
-        </tarjeta>
-        <tarjeta>
+    <!-- Quiénes pueden aprenderla -->
+    <quienes>
+        <titulo>¿Quién puede aprender LSM?</titulo>
+        <descripcion>La LSM es para todos. Aprender lengua de señas no solo beneficia a quienes tienen discapacidad auditiva, sino a toda la sociedad.</descripcion>
+        <perfil>
+            <icono>👩‍🏫</icono>
+            <nombre>Docentes y educadores</nombre>
+            <texto>Para brindar educación inclusiva a estudiantes sordos o con discapacidad auditiva en sus aulas.</texto>
+        </perfil>
+        <perfil>
+            <icono>👨‍👩‍👧</icono>
+            <nombre>Familias</nombre>
+            <texto>Para comunicarse con un familiar sordo y fortalecer el vínculo familiar a través de una lengua compartida.</texto>
+        </perfil>
+        <perfil>
+            <icono>🏥</icono>
+            <nombre>Personal de salud</nombre>
+            <texto>Para atender con dignidad a pacientes sordos en hospitales, clínicas y centros de salud.</texto>
+        </perfil>
+        <perfil>
+            <icono>🧑‍💼</icono>
+            <nombre>Profesionales de servicio</nombre>
+            <texto>Trabajadores de gobierno, bancos, transporte y comercio que atienden público en general.</texto>
+        </perfil>
+        <perfil>
             <icono>🎓</icono>
-            <titulo>Lecciones</titulo>
-            <descripcion>Aprende paso a paso con lecciones estructuradas para todos los niveles.</descripcion>
-            <enlace>pages/lecciones.html</enlace>
-        </tarjeta>
-        <tarjeta>
-            <icono>🧠</icono>
-            <titulo>Quiz Interactivo</titulo>
-            <descripcion>Pon a prueba tu conocimiento con preguntas y retroalimentación inmediata.</descripcion>
-            <enlace>pages/quiz.html</enlace>
-        </tarjeta>
-    </caracteristicas>
+            <nombre>Estudiantes</nombre>
+            <texto>Para ampliar sus habilidades comunicativas y abrirse a nuevas oportunidades académicas y laborales.</texto>
+        </perfil>
+        <perfil>
+            <icono>🤝</icono>
+            <nombre>Cualquier persona</nombre>
+            <texto>Aprender LSM es un acto de inclusión. Cualquier persona puede aprender y contribuir a una sociedad más accesible.</texto>
+        </perfil>
+    </quienes>
 
-    <!-- Seña del día -->
-    <sena-del-dia>
-        <palabra>Gracias</palabra>
-        <descripcion>Extiende la mano derecha con los dedos juntos y lleva las yemas hacia los labios, luego mueve la mano hacia adelante abriendo suavemente los dedos.</descripcion>
-        <categoria>Saludos</categoria>
-    </sena-del-dia>
+    <!-- Objetivo de la plataforma -->
+    <objetivo>
+        <titulo>Objetivo de esta Plataforma</titulo>
+        <texto>Esta plataforma fue creada como un proyecto educativo para acercar la Lengua de Señas Mexicana a cualquier persona interesada en aprenderla. Nuestro objetivo es ofrecer recursos gratuitos, organizados y accesibles que permitan conocer el vocabulario, la gramática y la cultura de la comunidad sorda de México.</texto>
+        <mision>🎯 Misión: Promover la inclusión y la comunicación entre personas oyentes y sordas a través del aprendizaje de la LSM.</mision>
+        <caracteristica1>
+            <icono>📖</icono>
+            <texto>Diccionario con señas descritas y organizadas por categoría</texto>
+        </caracteristica1>
+        <caracteristica2>
+            <icono>🎓</icono>
+            <texto>Lecciones estructuradas por nivel: básico, intermedio y avanzado</texto>
+        </caracteristica2>
+        <caracteristica3>
+            <icono>🧠</icono>
+            <texto>Quiz interactivo para evaluar y reforzar el aprendizaje</texto>
+        </caracteristica3>
+        <caracteristica4>
+            <icono>🤝</icono>
+            <texto>Sección de comunidad con recursos y organizaciones de apoyo</texto>
+        </caracteristica4>
+    </objetivo>
 
     <!-- Footer -->
     <footer>

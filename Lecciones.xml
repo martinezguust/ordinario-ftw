@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lecciones>
+
+    <encabezado>
+        <titulo>Lecciones de LSM</titulo>
+        <descripcion>Aprende paso a paso con lecciones estructuradas para todos los niveles.</descripcion>
+    </encabezado>
+
+    <!-- NIVEL BÁSICO -->
+    <leccion>
+        <nivel>basico</nivel>
+        <titulo>Introducción al abecedario</titulo>
+        <descripcion>Aprende las 27 letras del alfabeto dactilológico de la LSM.</descripcion>
+        <duracion>20 min</duracion>
+        <contenido>El alfabeto dactilológico es la base de la LSM. Cada letra del español tiene una forma de mano correspondiente. Practica frente a un espejo comenzando con las vocales: A, E, I, O, U, y luego las consonantes de mayor uso.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>basico</nivel>
+        <titulo>Saludos y despedidas</titulo>
+        <descripcion>Aprende cómo saludar, despedirte y presentarte en LSM.</descripcion>
+        <duracion>15 min</duracion>
+        <contenido>Los saludos son las primeras señas que debes dominar. Aprende: Hola, Adiós, Buenos días, Buenas tardes, Buenas noches, ¿Cómo estás?, Bien, Mal, Más o menos, Me llamo... Practica cada seña cinco veces antes de pasar a la siguiente.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>basico</nivel>
+        <titulo>Números del 1 al 20</titulo>
+        <descripcion>Domina los números básicos para comunicar cantidades y edades.</descripcion>
+        <duracion>20 min</duracion>
+        <contenido>Los números en LSM se expresan con la mano dominante. Del 1 al 10 usan una sola mano. Del 11 al 20 combinan ambas manos o movimientos específicos. Practica contando objetos de tu entorno mientras realizas las señas.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>basico</nivel>
+        <titulo>Mi familia</titulo>
+        <descripcion>Aprende las señas para los miembros de la familia.</descripcion>
+        <duracion>15 min</duracion>
+        <contenido>Las señas de familia en LSM distinguen género: las señas femeninas se realizan cerca del mentón y las masculinas cerca de la frente. Aprende: mamá, papá, hermano, hermana, abuelo, abuela, hijo, hija, tío, tía, primo, prima.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>basico</nivel>
+        <titulo>Colores básicos</titulo>
+        <descripcion>Aprende a expresar los colores más comunes en LSM.</descripcion>
+        <duracion>10 min</duracion>
+        <contenido>Los colores en LSM frecuentemente toman la inicial del color en español y realizan un movimiento de muñeca. Aprende: rojo, azul, verde, amarillo, blanco, negro, café, morado, naranja, rosa. Practica describiendo objetos de tu habitación.</contenido>
+    </leccion>
+
+    <!-- NIVEL INTERMEDIO -->
+    <leccion>
+        <nivel>intermedio</nivel>
+        <titulo>Verbos de acción cotidiana</titulo>
+        <descripcion>Aprende los verbos más usados en conversaciones del día a día.</descripcion>
+        <duracion>25 min</duracion>
+        <contenido>Los verbos en LSM pueden ser direccionales (la dirección del movimiento indica quién hace qué a quién) o no direccionales. En esta lección aprenderás: comer, beber, dormir, trabajar, estudiar, hablar, escuchar, ver, caminar, correr, ir, venir, querer, necesitar.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>intermedio</nivel>
+        <titulo>Preguntas básicas</titulo>
+        <descripcion>Aprende a formular y responder preguntas en LSM.</descripcion>
+        <duracion>20 min</duracion>
+        <contenido>Las preguntas en LSM se marcan con expresión facial: cejas fruncidas para preguntas de información (¿qué?, ¿dónde?, ¿cuándo?, ¿cómo?, ¿por qué?) y cejas levantadas para preguntas de sí/no. Practica con un compañero alternando pregunta y respuesta.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>intermedio</nivel>
+        <titulo>Descripción de lugares</titulo>
+        <descripcion>Aprende a describir espacios y dar indicaciones de ubicación.</descripcion>
+        <duracion>25 min</duracion>
+        <contenido>En LSM el espacio frente al hablante se usa para representar lugares y objetos. Aprende las señas de: casa, escuela, mercado, hospital, parque, calle, arriba, abajo, izquierda, derecha, cerca, lejos, aquí, allá. Practica describiendo el camino de tu casa a la escuela.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>intermedio</nivel>
+        <titulo>Expresión de emociones</titulo>
+        <descripcion>Comunica sentimientos y estados de ánimo con precisión.</descripcion>
+        <duracion>20 min</duracion>
+        <contenido>Las emociones en LSM combinan señas manuales con expresiones faciales. La expresión facial no es opcional; forma parte de la gramática. Aprende: feliz, triste, enojado, asustado, sorprendido, cansado, aburrido, emocionado, nervioso, tranquilo.</contenido>
+    </leccion>
+
+    <!-- NIVEL AVANZADO -->
+    <leccion>
+        <nivel>avanzado</nivel>
+        <titulo>Gramática de la LSM</titulo>
+        <descripcion>Comprende la estructura gramatical propia de la Lengua de Señas Mexicana.</descripcion>
+        <duracion>40 min</duracion>
+        <contenido>La LSM tiene su propia gramática, diferente al español. El orden básico es Sujeto-Objeto-Verbo. Se usan clasificadores (formas de mano que representan categorías de objetos), el espacio gramatical, y la expresión facial como marcador de modo y tipo de oración. Esta lección explora cada uno de estos elementos con ejemplos prácticos.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>avanzado</nivel>
+        <titulo>Narrativa y discurso</titulo>
+        <descripcion>Aprende a construir relatos y discursos fluidos en LSM.</descripcion>
+        <duracion>35 min</duracion>
+        <contenido>Para narrar en LSM se usan técnicas como el referente espacial (asignar personas y objetos a puntos en el espacio), el cambio de rol (asumir perspectiva de distintos personajes) y el uso de clasificadores narrativos. Practica contando un evento de tu día o una historia corta.</contenido>
+    </leccion>
+
+    <leccion>
+        <nivel>avanzado</nivel>
+        <titulo>Vocabulario técnico y académico</titulo>
+        <descripcion>Amplía tu vocabulario con términos de distintas áreas del conocimiento.</descripcion>
+        <duracion>30 min</duracion>
+        <contenido>En contextos académicos y profesionales es necesario conocer señas específicas de cada área. Aprenderás vocabulario de: medicina, derecho, educación, tecnología y ciencias. Cuando no existe una seña establecida se recurre al deletreo dactilológico o a señas creadas por la comunidad sorda local.</contenido>
+    </leccion>
+
+</lecciones>

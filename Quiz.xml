@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+    <encabezado>
+        <titulo>Quiz Interactivo de LSM</titulo>
+        <descripcion>Pon a prueba tu conocimiento de la Lengua de Señas Mexicana. Responde las preguntas y recibe retroalimentación inmediata.</descripcion>
+    </encabezado>
+
+    <pregunta>
+        <texto>¿Cómo se realiza la seña de "Gracias" en LSM?</texto>
+        <opcion>Cerrando el puño y agitándolo</opcion>
+        <opcion>Llevando las yemas de los dedos a los labios y moviendo la mano hacia adelante</opcion>
+        <opcion>Cruzando los brazos sobre el pecho</opcion>
+        <opcion>Señalando con el índice hacia arriba</opcion>
+        <correcta>Llevando las yemas de los dedos a los labios y moviendo la mano hacia adelante</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>En LSM, ¿dónde se realizan generalmente las señas del género femenino?</texto>
+        <opcion>Cerca de la frente</opcion>
+        <opcion>Cerca del pecho</opcion>
+        <opcion>Cerca del mentón</opcion>
+        <opcion>Cerca del hombro</opcion>
+        <correcta>Cerca del mentón</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Cuál es el orden gramatical básico de la LSM?</texto>
+        <opcion>Sujeto - Verbo - Objeto</opcion>
+        <opcion>Verbo - Sujeto - Objeto</opcion>
+        <opcion>Objeto - Verbo - Sujeto</opcion>
+        <opcion>Sujeto - Objeto - Verbo</opcion>
+        <correcta>Sujeto - Objeto - Verbo</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Qué expresión facial se usa para hacer preguntas de sí o no en LSM?</texto>
+        <opcion>Cejas fruncidas</opcion>
+        <opcion>Cejas levantadas</opcion>
+        <opcion>Ojos cerrados</opcion>
+        <opcion>Boca abierta</opcion>
+        <correcta>Cejas levantadas</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Cómo se realiza la seña del número "cinco" en LSM?</texto>
+        <opcion>Solo el pulgar extendido</opcion>
+        <opcion>Índice y dedo medio extendidos</opcion>
+        <opcion>Los cinco dedos extendidos con la palma al frente</opcion>
+        <opcion>Puño cerrado</opcion>
+        <correcta>Los cinco dedos extendidos con la palma al frente</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Qué es el alfabeto dactilológico en LSM?</texto>
+        <opcion>Un conjunto de señas para números</opcion>
+        <opcion>La representación manual de cada letra del abecedario</opcion>
+        <opcion>Un sistema de señas para emociones</opcion>
+        <opcion>Un tipo de saludo formal</opcion>
+        <correcta>La representación manual de cada letra del abecedario</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Cuál es la seña correcta para "Mamá" en LSM?</texto>
+        <opcion>Mano abierta cerca de la frente moviendo los dedos</opcion>
+        <opcion>Mano abierta cerca del mentón con el pulgar tocando la mejilla</opcion>
+        <opcion>Puño cerrado cerca del corazón</opcion>
+        <opcion>Índice señalando hacia arriba</opcion>
+        <correcta>Mano abierta cerca del mentón con el pulgar tocando la mejilla</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Qué son los clasificadores en LSM?</texto>
+        <opcion>Señas que indican la hora del día</opcion>
+        <opcion>Formas de mano que representan categorías de objetos o personas</opcion>
+        <opcion>Números usados para clasificar lecciones</opcion>
+        <opcion>Señas exclusivas de regiones de México</opcion>
+        <correcta>Formas de mano que representan categorías de objetos o personas</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Cómo se dice "Hola" en LSM?</texto>
+        <opcion>Levantando la mano a la altura de la sien y moviéndola hacia afuera</opcion>
+        <opcion>Agitando ambas manos sobre la cabeza</opcion>
+        <opcion>Tocando el hombro con el índice</opcion>
+        <opcion>Cruzando los brazos y descansándolos</opcion>
+        <correcta>Levantando la mano a la altura de la sien y moviéndola hacia afuera</correcta>
+    </pregunta>
+
+    <pregunta>
+        <texto>¿Cuál de estas señas corresponde al color "Rojo"?</texto>
+        <opcion>Forma la letra R y la mueve de lado a lado</opcion>
+        <opcion>Pasa el índice doblado por los labios hacia abajo</opcion>
+        <opcion>Extiende la palma hacia el frente</opcion>
+        <opcion>Junta los dedos y los abre frente al pecho</opcion>
+        <correcta>Pasa el índice doblado por los labios hacia abajo</correcta>
+    </pregunta>
+
+</quiz>
