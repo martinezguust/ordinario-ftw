@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comunidad>
+
+    <encabezado>
+        <titulo>Comunidad LSM</titulo>
+        <descripcion>Conoce a las personas y organizaciones que hacen posible la inclusión de la comunidad sorda en México.</descripcion>
+    </encabezado>
+
+    <testimonios>
+        <titulo-seccion>Lo que dice nuestra comunidad</titulo-seccion>
+        <testimonio>
+            <nombre>María G.</nombre>
+            <rol>Estudiante universitaria</rol>
+            <texto>Gracias a esta plataforma pude comunicarme con mi compañera sorda. Aprendí los saludos básicos en una semana.</texto>
+        </testimonio>
+        <testimonio>
+            <nombre>Carlos R.</nombre>
+            <rol>Maestro de primaria</rol>
+            <texto>Una herramienta indispensable para la educación inclusiva. Mis alumnos la usan todos los días.</texto>
+        </testimonio>
+        <testimonio>
+            <nombre>Ana L.</nombre>
+            <rol>Intérprete certificada</rol>
+            <texto>El diccionario es muy completo y las lecciones están muy bien estructuradas. Lo recomiendo ampliamente.</texto>
+        </testimonio>
+    </testimonios>
+
+    <organizaciones>
+        <titulo-seccion>Organizaciones de la Comunidad Sorda en México</titulo-seccion>
+        <organizacion>
+            <nombre>FENASORD</nombre>
+            <descripcion>Federación Nacional de Sordos de México. Representa y promueve los derechos de las personas sordas en todo el país.</descripcion>
+            <sitio>https://fenasord.org</sitio>
+        </organizacion>
+        <organizacion>
+            <nombre>IMATE</nombre>
+            <descripcion>Instituto Mexicano de Audición y Terapia del Lenguaje. Ofrece atención especializada a personas con discapacidad auditiva.</descripcion>
+            <sitio>https://imate.org.mx</sitio>
+        </organizacion>
+        <organizacion>
+            <nombre>Inclúyeme</nombre>
+            <descripcion>Organización dedicada a la inclusión laboral y educativa de personas con discapacidad en México.</descripcion>
+            <sitio>https://incluyeme.com</sitio>
+        </organizacion>
+    </organizaciones>
+
+    <faq>
+        <titulo-seccion>Preguntas Frecuentes</titulo-seccion>
+        <pregunta>
+            <texto>¿Cuánto tiempo toma aprender LSM?</texto>
+            <respuesta>Con práctica diaria, puedes dominar las señas básicas en 3 meses. La fluidez completa puede tomar entre 1 y 2 años.</respuesta>
+        </pregunta>
+        <pregunta>
+            <texto>¿La LSM es igual en todo México?</texto>
+            <respuesta>Existe una LSM estándar, pero hay variaciones regionales. Esta plataforma enseña la variante más extendida a nivel nacional.</respuesta>
+        </pregunta>
+        <pregunta>
+            <texto>¿Puedo obtener una certificación?</texto>
+            <respuesta>Sí. La SEP y algunas universidades ofrecen certificaciones. Te recomendamos contactar a FENASORD para más información.</respuesta>
+        </pregunta>
+        <pregunta>
+            <texto>¿La plataforma es gratuita?</texto>
+            <respuesta>Sí, todos los contenidos de esta plataforma son completamente gratuitos y de libre acceso.</respuesta>
+        </pregunta>
+    </faq>
+
+</comunidad>
