@@ -17,14 +17,14 @@
         </div>
         <nav id="navbar">
             <ul id="menu-lista">
-                <li><a href="index.html"        class="nav-link">Inicio</a></li>
+                <li><a href="inicio.html"        class="nav-link">Inicio</a></li>
                 <li><a href="diccionario.html"  class="nav-link">Diccionario</a></li>
                 <li><a href="categorias.html"   class="nav-link">Categorías</a></li>
                 <li><a href="lecciones.html"    class="nav-link">Lecciones</a></li>
                 <li><a href="quiz.html"         class="nav-link">Quiz</a></li>
                 <li><a href="recursos.html"     class="nav-link activo">Recursos</a></li>
                 <li><a href="comunidad.html"    class="nav-link">Comunidad</a></li>
-                <li><a href="acerca.html"       class="nav-link">Acerca de</a></li>
+                
             </ul>
         </nav>
     </header>
@@ -36,11 +36,11 @@
 
     <!-- tipo de recurso -->
     <section id="filtro-recursos-seccion">
-        <button class="filtro-rec-btn activo" id="filtro-rec-todos">Todos</button>
-        <button class="filtro-rec-btn" id="filtro-rec-video">Videos</button>
-        <button class="filtro-rec-btn" id="filtro-rec-libro">Libros</button>
-        <button class="filtro-rec-btn" id="filtro-rec-sitio">Sitios Web</button>
-        <button class="filtro-rec-btn" id="filtro-rec-app">Aplicaciones</button>
+        <button class="filtro-rec-btn activo" id="filtro-rec-todos" data-tipo="todos">Todos</button>
+        <button class="filtro-rec-btn" id="filtro-rec-video" data-tipo="video">Videos</button>
+        <button class="filtro-rec-btn" id="filtro-rec-libro" data-tipo="libro">Libros</button>
+        <button class="filtro-rec-btn" id="filtro-rec-sitio" data-tipo="sitio">Sitios Web</button>
+        <button class="filtro-rec-btn" id="filtro-rec-app" data-tipo="app">Aplicaciones</button>
     </section>
 
     <section id="recursos-seccion">

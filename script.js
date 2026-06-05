@@ -22,26 +22,32 @@ function obtenerTexto(xml, etiqueta) {
 // INICIO
 function cargarInicio() {
     cargarXML("inicio.xml", function(xml) {
-        document.getElementById("que-es-titulo").textContent      = obtenerTexto(xml, "que-es titulo");
-        document.getElementById("que-es-subtitulo").textContent   = obtenerTexto(xml, "subtitulo");
-        document.getElementById("abecedario-titulo").textContent  = obtenerTexto(xml, "abecedario titulo");
-        document.getElementById("abecedario-descripcion").textContent = obtenerTexto(xml, "abecedario descripcion");
-        document.getElementById("abecedario-consejo").textContent = obtenerTexto(xml, "consejo");
-        document.getElementById("quienes-titulo").textContent     = obtenerTexto(xml, "quienes titulo");
-        document.getElementById("quienes-descripcion").textContent = obtenerTexto(xml, "quienes descripcion");
-        document.getElementById("objetivo-titulo").textContent    = obtenerTexto(xml, "objetivo titulo");
-        document.getElementById("objetivo-texto").textContent     = obtenerTexto(xml, "objetivo texto");
-        document.getElementById("objetivo-mision").textContent    = obtenerTexto(xml, "objetivo mision");
-        document.getElementById("footer-texto").textContent       = obtenerTexto(xml, "footer texto");
+        var queEs    = xml.querySelector("que-es");
+        var abec     = xml.querySelector("abecedario");
+        var quienes  = xml.querySelector("quienes");
+        var objetivo = xml.querySelector("objetivo");
+        var pie      = xml.querySelector("footer");
+
+        document.getElementById("que-es-titulo").textContent       = queEs.querySelector("titulo").textContent.trim();
+        document.getElementById("que-es-subtitulo").textContent    = queEs.querySelector("subtitulo").textContent.trim();
+        document.getElementById("abecedario-titulo").textContent   = abec.querySelector("titulo").textContent.trim();
+        document.getElementById("abecedario-descripcion").textContent = abec.querySelector("descripcion").textContent.trim();
+        document.getElementById("abecedario-consejo").textContent  = abec.querySelector("consejo").textContent.trim();
+        document.getElementById("quienes-titulo").textContent      = quienes.querySelector("titulo").textContent.trim();
+        document.getElementById("quienes-descripcion").textContent = quienes.querySelector("descripcion").textContent.trim();
+        document.getElementById("objetivo-titulo").textContent     = objetivo.querySelector("titulo").textContent.trim();
+        document.getElementById("objetivo-texto").textContent      = objetivo.querySelector("texto").textContent.trim();
+        document.getElementById("objetivo-mision").textContent     = objetivo.querySelector("mision").textContent.trim();
+        document.getElementById("footer-texto").textContent        = pie.querySelector("texto").textContent.trim();
 
         // Párrafos de qué es LSM
         document.getElementById("que-es-parrafos").innerHTML =
-            "<p>" + obtenerTexto(xml, "parrafo1") + "</p>" +
-            "<p>" + obtenerTexto(xml, "parrafo2") + "</p>" +
-            "<p>" + obtenerTexto(xml, "parrafo3") + "</p>";
+            "<p>" + queEs.querySelector("parrafo1").textContent.trim() + "</p>" +
+            "<p>" + queEs.querySelector("parrafo2").textContent.trim() + "</p>" +
+            "<p>" + queEs.querySelector("parrafo3").textContent.trim() + "</p>";
 
         // Tarjetas de perfiles
-        var perfiles = xml.querySelectorAll("quienes perfil");
+        var perfiles = quienes.querySelectorAll("perfil");
         var contenedor = document.getElementById("quienes-contenedor");
         contenedor.innerHTML = "";
         for (var i = 0; i < perfiles.length; i++) {
@@ -351,14 +357,13 @@ function cargarComunidad() {
 // DETECCIÓN DE PÁGINA
 function detectarPagina() {
     var pagina = window.location.pathname.split("/").pop();
-    if      (pagina === "inicio.html")      cargarInicio();
+    if      (pagina === "index.html" || pagina === "" || pagina === "inicio.html") cargarInicio();
     else if (pagina === "diccionario.html") cargarDiccionario();
     else if (pagina === "categorias.html")  cargarCategorias();
     else if (pagina === "lecciones.html")   cargarLecciones();
     else if (pagina === "quiz.html")        cargarQuiz();
     else if (pagina === "recursos.html")    cargarRecursos();
     else if (pagina === "comunidad.html")   cargarComunidad();
-    else if (pagina === "acerca.html")      console.log("Pendiente: acerca");
 }
 
 window.onload = function() { detectarPagina(); };
