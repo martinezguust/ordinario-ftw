@@ -9,27 +9,30 @@
 </head>
 <body>
 
+    <a href="#contenido-principal" id="skip-link">Ir al contenido principal</a>
+
     
     <!-- NAVBAR -->
     <header id="encabezado">
         <div id="logo-area">
-            <span id="logo-icono">🤟</span>
+            <span id="logo-icono" aria-label="Mano haciendo la seña de te quiero en LSM" role="img">🤟</span>
             <h1 id="logo-titulo">LSM Plataforma</h1>
             <p id="logo-subtitulo">Lengua de Señas Mexicana</p>
         </div>
-        <nav id="navbar">
+        <nav id="navbar" aria-label="Menú principal de navegación">
             <ul id="menu-lista">
-                <li><a href="inicio.html"           class="nav-link">Inicio</a></li>
+                <li><a href="../index.html"           class="nav-link">Inicio</a></li>
                 <li><a href="diccionario.html"        class="nav-link">Diccionario</a></li>
-                <li><a href="categorias.html"         class="nav-link activo">Categorías</a></li>
+                <li><a href="categorias.html" class="nav-link activo" aria-current="page">Categorías</a></li>
                 <li><a href="lecciones.html"          class="nav-link">Lecciones</a></li>
-                <li><a href="quiz.html"               class="nav-link">Quiz</a></li>
+                <li><a href="quiz.html"               class="nav-link">Quiz Interactivo</a></li>
                 <li><a href="recursos.html"           class="nav-link">Recursos</a></li>
                 <li><a href="comunidad.html"          class="nav-link">Comunidad</a></li>
             </ul>
         </nav>
     </header>
 
+    <main id="contenido-principal">
     <section id="page-header">
         <h2 id="cat-titulo">Cargando...</h2>
         <p  id="cat-descripcion">Cargando...</p>

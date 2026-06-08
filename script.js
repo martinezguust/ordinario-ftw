@@ -28,35 +28,51 @@ function cargarInicio() {
         var objetivo = xml.querySelector("objetivo");
         var pie      = xml.querySelector("footer");
 
-        document.getElementById("que-es-titulo").textContent       = queEs.querySelector("titulo").textContent.trim();
-        document.getElementById("que-es-subtitulo").textContent    = queEs.querySelector("subtitulo").textContent.trim();
-        document.getElementById("abecedario-titulo").textContent   = abec.querySelector("titulo").textContent.trim();
-        document.getElementById("abecedario-descripcion").textContent = abec.querySelector("descripcion").textContent.trim();
-        document.getElementById("abecedario-consejo").textContent  = abec.querySelector("consejo").textContent.trim();
-        document.getElementById("quienes-titulo").textContent      = quienes.querySelector("titulo").textContent.trim();
-        document.getElementById("quienes-descripcion").textContent = quienes.querySelector("descripcion").textContent.trim();
-        document.getElementById("objetivo-titulo").textContent     = objetivo.querySelector("titulo").textContent.trim();
-        document.getElementById("objetivo-texto").textContent      = objetivo.querySelector("texto").textContent.trim();
-        document.getElementById("objetivo-mision").textContent     = objetivo.querySelector("mision").textContent.trim();
-        document.getElementById("footer-texto").textContent        = pie.querySelector("texto").textContent.trim();
+        // Funcion auxiliar para llenar solo si el elemento existe en el DOM
+        function llenar(id, valor) {
+            var el = document.getElementById(id);
+            if (el) el.textContent = valor;
+        }
 
-        // Párrafos de qué es LSM
-        document.getElementById("que-es-parrafos").innerHTML =
-            "<p>" + queEs.querySelector("parrafo1").textContent.trim() + "</p>" +
-            "<p>" + queEs.querySelector("parrafo2").textContent.trim() + "</p>" +
-            "<p>" + queEs.querySelector("parrafo3").textContent.trim() + "</p>";
+        // Hero (index.html)
+        llenar("hero-titulo",      queEs.querySelector("titulo").textContent.trim());
+        llenar("hero-descripcion", queEs.querySelector("subtitulo").textContent.trim());
 
-        // Tarjetas de perfiles
-        var perfiles = quienes.querySelectorAll("perfil");
-        var contenedor = document.getElementById("quienes-contenedor");
-        contenedor.innerHTML = "";
-        for (var i = 0; i < perfiles.length; i++) {
-            var div = document.createElement("div");
-            div.className = "perfil-card";
-            div.innerHTML = "<span>" + perfiles[i].querySelector("icono").textContent.trim() + "</span>" +
-                            "<h4>" + perfiles[i].querySelector("nombre").textContent.trim() + "</h4>" +
-                            "<p>" + perfiles[i].querySelector("texto").textContent.trim() + "</p>";
-            contenedor.appendChild(div);
+        // Secciones de inicio.html
+        llenar("que-es-titulo",           queEs.querySelector("titulo").textContent.trim());
+        llenar("que-es-subtitulo",        queEs.querySelector("subtitulo").textContent.trim());
+        llenar("abecedario-titulo",       abec.querySelector("titulo").textContent.trim());
+        llenar("abecedario-descripcion",  abec.querySelector("descripcion").textContent.trim());
+        llenar("abecedario-consejo",      abec.querySelector("consejo").textContent.trim());
+        llenar("quienes-titulo",          quienes.querySelector("titulo").textContent.trim());
+        llenar("quienes-descripcion",     quienes.querySelector("descripcion").textContent.trim());
+        llenar("objetivo-titulo",         objetivo.querySelector("titulo").textContent.trim());
+        llenar("objetivo-texto",          objetivo.querySelector("texto").textContent.trim());
+        llenar("objetivo-mision",         objetivo.querySelector("mision").textContent.trim());
+        llenar("footer-texto",            pie.querySelector("texto").textContent.trim());
+
+        // Parrafos (solo en inicio.html)
+        var parrafosDiv = document.getElementById("que-es-parrafos");
+        if (parrafosDiv) {
+            parrafosDiv.innerHTML =
+                "<p>" + queEs.querySelector("parrafo1").textContent.trim() + "</p>" +
+                "<p>" + queEs.querySelector("parrafo2").textContent.trim() + "</p>" +
+                "<p>" + queEs.querySelector("parrafo3").textContent.trim() + "</p>";
+        }
+
+        // Perfiles (solo en inicio.html)
+        var contenedorQ = document.getElementById("quienes-contenedor");
+        if (contenedorQ) {
+            var perfiles = quienes.querySelectorAll("perfil");
+            contenedorQ.innerHTML = "";
+            for (var i = 0; i < perfiles.length; i++) {
+                var div = document.createElement("div");
+                div.className = "perfil-card";
+                div.innerHTML = "<span>" + perfiles[i].querySelector("icono").textContent.trim() + "</span>" +
+                                "<h4>" + perfiles[i].querySelector("nombre").textContent.trim() + "</h4>" +
+                                "<p>" + perfiles[i].querySelector("texto").textContent.trim() + "</p>";
+                contenedorQ.appendChild(div);
+            }
         }
     });
 }
@@ -351,6 +367,9 @@ function cargarComunidad() {
             })(divF);
             contFAQ.appendChild(divF);
         }
+
+        // Inicia la validacion del formulario de contacto
+        iniciarFormularioContacto();
     });
 }
 
@@ -367,3 +386,56 @@ function detectarPagina() {
 }
 
 window.onload = function() { detectarPagina(); };
+
+// FORMULARIO DE CONTACTO (comunidad.html)
+// Valida campos y muestra resultado al usuario
+function iniciarFormularioContacto() {
+    var form = document.getElementById("form-contacto");
+    if (!form) return;
+
+    form.onsubmit = function(e) {
+        e.preventDefault();
+        var resultado = document.getElementById("form-resultado");
+
+        var nombre    = document.getElementById("contacto-nombre").value.trim();
+        var correo    = document.getElementById("contacto-correo").value.trim();
+        var mensaje   = document.getElementById("contacto-mensaje").value.trim();
+        var privacidad = document.getElementById("contacto-privacidad").checked;
+
+        // Validacion
+        if (nombre === "") {
+            resultado.textContent = "⚠️ Por favor escribe tu nombre completo.";
+            resultado.className = "error";
+            document.getElementById("contacto-nombre").focus();
+            return;
+        }
+
+        // Validar formato de correo básico
+        var regexCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!regexCorreo.test(correo)) {
+            resultado.textContent = "⚠️ Por favor escribe un correo electrónico válido.";
+            resultado.className = "error";
+            document.getElementById("contacto-correo").focus();
+            return;
+        }
+
+        if (mensaje.length < 10) {
+            resultado.textContent = "⚠️ El mensaje debe tener al menos 10 caracteres.";
+            resultado.className = "error";
+            document.getElementById("contacto-mensaje").focus();
+            return;
+        }
+
+        if (!privacidad) {
+            resultado.textContent = "⚠️ Debes aceptar el aviso de privacidad para continuar.";
+            resultado.className = "error";
+            document.getElementById("contacto-privacidad").focus();
+            return;
+        }
+
+        // Todo correcto
+        resultado.textContent = "✅ ¡Mensaje enviado correctamente! Nos pondremos en contacto contigo pronto.";
+        resultado.className = "exito";
+        form.reset();
+    };
+}

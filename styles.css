@@ -1251,3 +1251,192 @@ button { cursor: pointer; font-family: var(--fuente); }
         padding-right: 1rem;
     }
 }
+/* =============================================================
+   FORMULARIO DE CONTACTO (criterio 3 — accesibilidad)
+============================================================= */
+#contacto-seccion {
+    padding: 2.5rem 2.5rem 3rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#contacto-titulo {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--texto);
+    margin-bottom: 0.5rem;
+}
+
+#contacto-descripcion {
+    font-size: 15px;
+    color: var(--texto-suave);
+    margin-bottom: 1.75rem;
+}
+
+#form-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.form-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.form-grupo label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--texto);
+}
+
+.form-grupo input,
+.form-grupo select,
+.form-grupo textarea {
+    padding: 0.75rem 1rem;
+    background: rgba(140, 82, 255, 0.05);
+    border: 1px solid var(--primario-borde);
+    border-radius: var(--radio);
+    font-family: var(--fuente);
+    font-size: 14px;
+    color: var(--texto);
+    outline: none;
+    transition: border-color 0.2s ease;
+    width: 100%;
+}
+
+.form-grupo input:focus,
+.form-grupo select:focus,
+.form-grupo textarea:focus {
+    border-color: var(--primario);
+    box-shadow: 0 0 0 3px rgba(140, 82, 255, 0.12);
+}
+
+.form-grupo input::placeholder,
+.form-grupo textarea::placeholder {
+    color: var(--texto-muted);
+}
+
+.form-grupo textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.form-grupo small {
+    font-size: 12px;
+    color: var(--texto-muted);
+}
+
+/* Checkbox accesible */
+.form-grupo-check {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+
+.form-grupo-check input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    margin-top: 2px;
+    accent-color: var(--primario);
+    cursor: pointer;
+    padding: 0;
+}
+
+.form-grupo-check label {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--texto-suave);
+    cursor: pointer;
+}
+
+#form-resultado {
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 1.4rem;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radio);
+}
+
+#form-resultado.exito {
+    background: rgba(0, 200, 120, 0.1);
+    border: 1px solid rgba(0, 200, 120, 0.3);
+    color: #00885a;
+}
+
+#form-resultado.error {
+    background: rgba(255, 80, 80, 0.08);
+    border: 1px solid rgba(255, 80, 80, 0.25);
+    color: #cc3333;
+}
+
+#btn-enviar-contacto {
+    padding: 0.85rem 2rem;
+    background: var(--primario);
+    color: #fff;
+    border: none;
+    border-radius: var(--radio);
+    font-family: var(--fuente);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+#btn-enviar-contacto:hover {
+    background: #7A3EF0;
+    transform: translateY(-2px);
+}
+
+#btn-enviar-contacto:focus {
+    outline: 3px solid var(--acento);
+    outline-offset: 2px;
+}
+
+/* Buscador como formulario */
+#form-buscador label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--texto);
+    margin-bottom: 0.5rem;
+}
+
+#buscador-controles {
+    display: flex;
+    gap: 0.6rem;
+    max-width: 600px;
+}
+
+/* Focus visible en todos los links (criterio 4) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid var(--acento);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* Skip link accesible (criterio 4) */
+#skip-link {
+    position: absolute;
+    top: -100px;
+    left: 1rem;
+    background: var(--primario);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radio);
+    font-weight: 700;
+    font-size: 14px;
+    z-index: 9999;
+    transition: top 0.2s ease;
+}
+
+#skip-link:focus {
+    top: 1rem;
+}

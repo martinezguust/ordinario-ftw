@@ -8,46 +8,70 @@
 </head>
 <body>
 
-    <!--NAVBAR-->
+    <!-- link para navegación-->
+    <a href="#contenido-principal" id="skip-link">Ir al contenido principal</a>
+
+    <!-- NAVBAR -->
     <header id="encabezado">
         <div id="logo-area">
-            <span id="logo-icono">🤟</span>
+            <span id="logo-icono" aria-label="Mano haciendo la seña de te quiero en LSM" role="img">🤟</span>
             <h1 id="logo-titulo">LSM Plataforma</h1>
             <p id="logo-subtitulo">Lengua de Señas Mexicana</p>
         </div>
-        <nav id="navbar">
+        <nav id="navbar" aria-label="Menú principal de navegación">
             <ul id="menu-lista">
-                <li><a href="inicio.html"           class="nav-link">Inicio</a></li>
-                <li><a href="diccionario.html"        class="nav-link activo">Diccionario</a></li>
-                <li><a href="categorias.html"         class="nav-link">Categorías</a></li>
-                <li><a href="lecciones.html"          class="nav-link">Lecciones</a></li>
-                <li><a href="quiz.html"               class="nav-link">Quiz</a></li>
-                <li><a href="recursos.html"           class="nav-link">Recursos</a></li>
-                <li><a href="comunidad.html"          class="nav-link">Comunidad</a></li>
+                <li><a href="index.html"       class="nav-link">Inicio</a></li>
+                <li><a href="diccionario.html" class="nav-link activo" aria-current="page">Diccionario</a></li>
+                <li><a href="categorias.html"  class="nav-link">Categorías</a></li>
+                <li><a href="lecciones.html"   class="nav-link">Lecciones</a></li>
+                <li><a href="quiz.html"        class="nav-link">Quiz Interactivo</a></li>
+                <li><a href="recursos.html"    class="nav-link">Recursos</a></li>
+                <li><a href="comunidad.html"   class="nav-link">Comunidad</a></li>
             </ul>
         </nav>
     </header>
 
-    <!--Encabezado-->
+    <!-- ENCABEZADO -->
+    <main id="contenido-principal">
     <section id="page-header">
         <h2 id="dic-titulo">Cargando...</h2>
         <p  id="dic-descripcion">Cargando...</p>
     </section>
 
-    <!-- buscador-->
-    <section id="buscador-seccion">
-        <input type="text" id="buscador-input" placeholder="Buscar una seña...">
-        <button id="buscador-btn">Buscar</button>
+    <!-- BUSCADOR — con label -->
+    <section id="buscador-seccion" aria-label="Buscador de señas">
+        <form id="form-buscador" role="search" onsubmit="return false;">
+            <label for="buscador-input">Buscar una seña en el diccionario:</label>
+            <div id="buscador-controles">
+                <input
+                    type="search"
+                    id="buscador-input"
+                    name="buscador"
+                    placeholder="Escribe una palabra, por ejemplo: Hola"
+                    aria-label="Campo de búsqueda de señas"
+                    autocomplete="off"
+                >
+                <button type="submit" id="buscador-btn" aria-label="Buscar la seña escrita">
+                    Buscar
+                </button>
+            </div>
+        </form>
     </section>
 
-    <!-- resultados-->
-    <section id="diccionario-seccion">
-        <div id="diccionario-contenedor">
-            <!-- Se genera desde diccionario.xml -->
+    <!-- RESULTADOS -->
+    <section id="diccionario-seccion" aria-label="Resultados del diccionario de señas">
+        <div id="diccionario-contenedor" role="list">
+            <!-- Tarjetas generadas desde diccionario.xml -->
         </div>
     </section>
 
+</main>
 
+    <footer id="pie-pagina">
+        <div id="footer-contenido">
+            <p id="footer-texto">© 2025 Plataforma LSM</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

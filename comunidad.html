@@ -8,52 +8,147 @@
 </head>
 <body>
 
-    
+    <a href="#contenido-principal" id="skip-link">Ir al contenido principal</a>
+
+    <!-- NAVBAR -->
     <header id="encabezado">
         <div id="logo-area">
-            <span id="logo-icono">🤟</span>
+            <span id="logo-icono" aria-label="Mano haciendo la seña de te quiero en LSM" role="img">🤟</span>
             <h1 id="logo-titulo">LSM Plataforma</h1>
             <p id="logo-subtitulo">Lengua de Señas Mexicana</p>
         </div>
-        <nav id="navbar">
+        <nav id="navbar" aria-label="Menú principal de navegación">
             <ul id="menu-lista">
-                <li><a href="inicio.html"        class="nav-link">Inicio</a></li>
-                <li><a href="diccionario.html"  class="nav-link">Diccionario</a></li>
-                <li><a href="categorias.html"   class="nav-link">Categorías</a></li>
-                <li><a href="lecciones.html"    class="nav-link">Lecciones</a></li>
-                <li><a href="quiz.html"         class="nav-link">Quiz</a></li>
-                <li><a href="recursos.html"     class="nav-link">Recursos</a></li>
-                <li><a href="comunidad.html"    class="nav-link activo">Comunidad</a></li>
-                
+                <li><a href="index.html"       class="nav-link">Inicio</a></li>
+                <li><a href="diccionario.html" class="nav-link">Diccionario</a></li>
+                <li><a href="categorias.html"  class="nav-link">Categorías</a></li>
+                <li><a href="lecciones.html"   class="nav-link">Lecciones</a></li>
+                <li><a href="quiz.html"        class="nav-link">Quiz Interactivo</a></li>
+                <li><a href="recursos.html"    class="nav-link">Recursos</a></li>
+                <li><a href="comunidad.html"   class="nav-link activo" aria-current="page">Comunidad</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- ENCABEZADO -->
+    <main id="contenido-principal">
     <section id="page-header">
         <h2 id="com-titulo">Cargando...</h2>
         <p  id="com-descripcion">Cargando...</p>
     </section>
 
-    <!-- Testimonios -->
-    <section id="testimonios-seccion">
+    <!-- TESTIMONIOS -->
+    <section id="testimonios-seccion" aria-label="Testimonios de usuarios de la plataforma">
         <h3 id="testimonios-titulo">Cargando...</h3>
-        <div id="testimonios-contenedor">
+        <div id="testimonios-contenedor" role="list">
         </div>
     </section>
 
-    <!-- Organizaciones -->
-    <section id="organizaciones-seccion">
+    <!-- ORGANIZACIONES -->
+    <section id="organizaciones-seccion" aria-label="Organizaciones de la comunidad sorda en México">
         <h3 id="organizaciones-titulo">Cargando...</h3>
-        <div id="organizaciones-contenedor">
+        <div id="organizaciones-contenedor" role="list">
         </div>
     </section>
 
-    <!-- Preguntas frecuentes -->
-    <section id="faq-seccion">
+    <!-- PREGUNTAS FRECUENTES -->
+    <section id="faq-seccion" aria-label="Preguntas frecuentes sobre LSM">
         <h3 id="faq-titulo">Cargando...</h3>
         <div id="faq-contenedor">
         </div>
     </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="contacto-seccion" aria-label="Formulario de contacto">
+        <h3 id="contacto-titulo">¿Tienes alguna pregunta o sugerencia?</h3>
+        <p id="contacto-descripcion">Escríbenos y nos pondremos en contacto contigo lo antes posible.</p>
+
+        <form id="form-contacto" novalidate>
+
+            <!-- Nombre -->
+            <div class="form-grupo">
+                <label for="contacto-nombre">Nombre completo <span aria-hidden="true">*</span></label>
+                <input
+                    type="text"
+                    id="contacto-nombre"
+                    name="nombre"
+                    placeholder="Escribe tu nombre"
+                    required
+                    aria-required="true"
+                    aria-describedby="nombre-ayuda"
+                >
+                <small id="nombre-ayuda">Ejemplo: María García López</small>
+            </div>
+
+            <!-- Correo -->
+            <div class="form-grupo">
+                <label for="contacto-correo">Correo electrónico <span aria-hidden="true">*</span></label>
+                <input
+                    type="email"
+                    id="contacto-correo"
+                    name="correo"
+                    placeholder="ejemplo@correo.com"
+                    required
+                    aria-required="true"
+                    aria-describedby="correo-ayuda"
+                >
+                <small id="correo-ayuda">Usaremos este correo para responderte.</small>
+            </div>
+
+            <!-- Tema -->
+            <div class="form-grupo">
+                <label for="contacto-tema">Tema del mensaje</label>
+                <select id="contacto-tema" name="tema" aria-label="Selecciona el tema de tu mensaje">
+                    <option value="">-- Selecciona un tema --</option>
+                    <option value="pregunta">Pregunta sobre LSM</option>
+                    <option value="sugerencia">Sugerencia para la plataforma</option>
+                    <option value="error">Reportar un error</option>
+                    <option value="colaboracion">Propuesta de colaboración</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+
+            <!-- Mensaje -->
+            <div class="form-grupo">
+                <label for="contacto-mensaje">Mensaje <span aria-hidden="true">*</span></label>
+                <textarea
+                    id="contacto-mensaje"
+                    name="mensaje"
+                    rows="5"
+                    placeholder="Escribe tu mensaje aquí..."
+                    required
+                    aria-required="true"
+                    aria-describedby="mensaje-ayuda"
+                ></textarea>
+                <small id="mensaje-ayuda">Mínimo 10 caracteres. Sé lo más descriptivo posible.</small>
+            </div>
+
+            <!-- Verificador de privacidad -->
+            <div class="form-grupo form-grupo-check">
+                <input
+                    type="checkbox"
+                    id="contacto-privacidad"
+                    name="privacidad"
+                    required
+                    aria-required="true"
+                >
+                <label for="contacto-privacidad">
+                    Acepto que mis datos sean usados únicamente para responder a mi consulta.
+                </label>
+            </div>
+
+            <!-- Mensaje -->
+            <p id="form-resultado" role="alert" aria-live="polite"></p>
+
+            <!-- enviar -->
+            <button type="submit" id="btn-enviar-contacto" aria-label="Enviar formulario de contacto">
+                Enviar mensaje
+            </button>
+
+        </form>
+    </section>
+
+</main>
 
     <footer id="pie-pagina">
         <div id="footer-contenido">
